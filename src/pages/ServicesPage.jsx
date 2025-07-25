@@ -1,4 +1,3 @@
- ian
 import React from 'react';
 import Portfolio from '../components/Portfolio';
 
@@ -13,7 +12,7 @@ const Home = () => {
   );
 };
 
-export default Hom
+export default Home;
 
 import React from "react";
 import ServicesList from "../components/ServicesList";
