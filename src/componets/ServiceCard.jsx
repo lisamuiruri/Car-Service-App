@@ -19,4 +19,4 @@ const ServiceCard = ({ service, isSelected, onToggle, selectedCarUnit }) => (
   </div>
 );
 
- default ServiceCard;
+export default ServiceCard;
