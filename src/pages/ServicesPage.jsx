@@ -1,3 +1,4 @@
+ ian
 import React from 'react';
 import Portfolio from '../components/Portfolio';
 
@@ -12,4 +13,18 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hom
+
+import React from "react";
+import ServicesList from "../components/ServicesList";
+
+const ServicesPage = () => {
+  return (
+    <div className="text-center">
+      <ServicesList />
+    </div>
+  );
+};
+
+export default ServicesPage;
+main
