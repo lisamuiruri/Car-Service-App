@@ -1,0 +1,67 @@
+{
+    "clients": [],
+  "cars": [
+    { "id":1, "type": "Saloon" },
+    { "id":2, "type": "Suv" },
+    { "id":3, "type": "Van"},
+    { "id":4, "type": "Commercial"}
+  ],
+"services": [
+  {
+    "id": 1,
+    "name": "Regular Wash",
+    "image": "/images/car23.jpg",
+    "prices": {
+      "Suv": 800,
+      "Saloon": 500,
+      "Van": 1000,
+      "Commercial": 1500
+    }
+  },
+  {
+    "id": 2,
+    "name": "Paint Correction and Buffing",
+    "image": "/images/car4.jpg",
+    "prices": {
+      "Suv": 20000,
+      "Saloon": 15000,
+      "Van": 22000,
+      "Commercial": 30000
+    }
+  },
+  {
+    "id": 3,
+    "name": "Paint Protection",
+    "image": "/images/car20.jpg",
+    "prices": {
+      "Suv": 30000,
+      "Saloon": 25000,
+      "Van": 32000,
+      "Commercial": 40000
+    }
+  },
+  {
+    "id": 4,
+    "name": "Interior Fumigation",
+    "image": "/images/car5.jpg",
+    "prices": {
+      "Suv": 3000,
+      "Saloon": 2500,
+      "Van": 3200,
+      "Commercial": 4000
+    }
+  },
+  {
+    "id": 5,
+    "name": "Minor Service",
+    "image": "/images/car2.jpg",
+    "prices": {
+      "Suv": 10000,
+      "Saloon": 8000,
+      "Van": 7200,
+      "Commercial": 65000
+    }
+  }
+],
+  "appointments": []
+}
