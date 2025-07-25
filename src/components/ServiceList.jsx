@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import DropDown from './DropDown';
-import ServiceCard from './ServicesCard';
+import ServiceCard from './ServiceCard';
 import TotalCost from './TotalCost';
 
 const carOptions = [
