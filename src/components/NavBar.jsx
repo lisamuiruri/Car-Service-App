@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <>
       <header className="bg-yellow-400 text-black text-center py-2 font-bold text-xl">
-        Car Detailing App
+        Shine & Drive
       </header>
 
       <nav className="bg-black text-white p-4 flex justify-between items-center shadow-md">

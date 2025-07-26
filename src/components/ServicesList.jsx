@@ -15,12 +15,16 @@ const ServicesList = () => {
   const [services, setServices] = useState([]);
   const [selectedServices, setSelectedServices] = useState([]);
   const [userInfo, setUserInfo] = useState({ email: '', phone: '' });
+  
+useEffect(() => {
+  fetch('http://localhost:3001/services')
+    .then(res => res.json())
+    .then(data => {
+      console.log('Services:', data); // <--- Add this
+      setServices(data);
+    });
+}, []);
 
-  useEffect(() => {
-    fetch('http://localhost:3001/services')
-      .then(res => res.json())
-      .then(data => setServices(data));
-  }, []);
 
   const handleToggle = (id) => {
     setSelectedServices(prev =>
