@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Car Detailing & Service Booking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, modern web application that allows users to **select their car type**, **choose services**, and **book appointments** — all in real-time, with an elegant UI built using **React**, **Tailwind CSS**, and **Vite**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  Description
 
-### `npm start`
+This Car Service App enables users to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Browse a list of available car detailing and maintenance services.
+- View service prices dynamically based on their selected car type (e.g., Saloon, SUV, etc.).
+- Add or remove services to generate a total cost estimate.
+- Submit basic contact information to proceed with a booking.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### This project demonstrates:
 
-### `npm test`
+- Component-based development with **React**
+- Styling with **Tailwind CSS**
+- State management using hooks (`useState`, `useEffect`)
+- Fetching data from a **local API** using the Fetch API
+- Clean, maintainable and DRY frontend code
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:white_check_mark: Dynamic car type selection  
+:white_check_mark: Service selection with instant price updates  
+:white_check_mark: Real-time booking summary and total cost  
+:white_check_mark: Responsive layout for mobile and desktop  
+:white_check_mark: Modern styling using Tailwind CSS  
+:white_check_mark: Easy local development with Vite  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Use
 
-### `npm run eject`
+### Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- A device with internet access
+- A modern browser (Chrome, Firefox, Edge, Safari)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Interactions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Select your car type (e.g., Saloon, SUV)
+2. Browse and select the services you need
+3. Enter your email and phone number
+4. Review your booking summary
+5. Click **"Book Now"** to submit
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠 Local Development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Code editor (e.g., VS Code)
+- [Node.js](https://nodejs.org/) installed
+- Git installed
 
-### Code Splitting
+### Setup Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repository:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/lisamuiruri/Car-Service-App.git
+cd car-service-app
