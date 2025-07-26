@@ -1,68 +1,81 @@
-# Car Detailing & Service Booking App
+Car Service App
 
-A responsive, modern web application that allows users to **select their car type**, **choose services**, and **book appointments** — all in real-time, with an elegant UI built using **React**, **Tailwind CSS**, and **Vite**.
+What we have here is a modern React-based car detailing service application that allows customers to browse services, select their car type, and book appointments with real-time pricing.
 
----
+Features
 
-##  Description
+Service Portfolio: A listed visual library showcasing car detailing work
+Dynamic Pricing: Prices adjust based on selected car type (Saloon, SUV, Van, Commercial)
+Service Selection: Multiple service options including wash, paint correction, protection, and more
+Real-time Cost Calculation: Live total cost updates as services are selected
+Responsive Design: Mobile-friendly interface using Tailwind CSS
+Booking System: Customer information collection and appointment booking
 
-This Car Service App enables users to:
+Tech Stack
 
-- Browse a list of available car detailing and maintenance services.
-- View service prices dynamically based on their selected car type (e.g., Saloon, SUV, etc.).
-- Add or remove services to generate a total cost estimate.
-- Submit basic contact information to proceed with a booking.
+Frontend: React with Vite
+Routing: React Router DOM
+Styling: Tailwind CSS
+Backend: JSON Server
+Prerequisites
+Node.js
+npm package manager
 
-### This project demonstrates:
+Installation
 
-- Component-based development with **React**
-- Styling with **Tailwind CSS**
-- State management using hooks (`useState`, `useEffect`)
-- Fetching data from a **local API** using the Fetch API
-- Clean, maintainable and DRY frontend code
+Clone the repository:
+Install dependencies:(If not installed)
+Use the command 'npm install'
 
----
+Start the JSON server for backend data:
+Run the command:
+npx json-server --watch db.json --port 3001
 
-## Features
+In a new terminal, start the development server:
+npm run dev
 
-:white_check_mark: Dynamic car type selection  
-:white_check_mark: Service selection with instant price updates  
-:white_check_mark: Real-time booking summary and total cost  
-:white_check_mark: Responsive layout for mobile and desktop  
-:white_check_mark: Modern styling using Tailwind CSS  
-:white_check_mark: Easy local development with Vite  
+Open your browser and navigate to http://localhost:5173
+Project Structure
+src/
+├── components/
+│   ├── NavBar.jsx          # Navigation component
+│   ├── Footer.jsx          # Footer component
+│   ├── Portfolio.jsx       # Image carousel
+│   ├── ServicesList.jsx    # Main services component
+│   ├── ServiceCard.jsx     # Individual service card
+│   ├── DropDown.jsx        # Car type selector
+│   └── TotalCost.jsx       # Booking summary
+├── pages/
+│   ├── Home.jsx            # Home page
+│   └── ServicesPage.jsx    # Services page
+├── App.jsx                 # Main app component
+├── index.jsx              # App entry point
+└── index.css              # Global styles
+Services Offered
+Regular Wash - Basic car washing service
+Paint Correction and Buffing - Professional paint restoration
+Paint Protection - Protective coating application
+Interior Fumigation - Deep interior cleaning and sanitization
+Minor Service - Basic maintenance service
+Car Types & Pricing
+The app supports four vehicle categories with dynamic pricing:
 
----
+Saloon Cars - Standard sedans
+SUV Cars - Sport utility vehicles
+Vans - Commercial and personal vans
+Commercial Vehicles - Heavy-duty commercial vehicles
+Deployment
+The application is deployed on netlify:
+link: https://carlinic.netlify.app/
 
-## How to Use
+Authors
 
-### Requirements
+Lisa Muiruri
+Maurice Muita
+Ian Muthiani
 
-- A device with internet access
-- A modern browser (Chrome, Firefox, Edge, Safari)
+License
 
-### Interactions
+MIT
+This project is open and proprietary for educational and public use.
 
-1. Select your car type (e.g., Saloon, SUV)
-2. Browse and select the services you need
-3. Enter your email and phone number
-4. Review your booking summary
-5. Click **"Book Now"** to submit
-
----
-
-## 🛠 Local Development
-
-### Prerequisites
-
-- Code editor (e.g., VS Code)
-- [Node.js](https://nodejs.org/) installed
-- Git installed
-
-### Setup Steps
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/lisamuiruri/Car-Service-App.git
-cd car-service-app
