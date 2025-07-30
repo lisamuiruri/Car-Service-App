@@ -46,7 +46,7 @@ http://localhost:5173
 ## Deployment
 
 The frontend application is deployed on netlify:
-link: https://cardetailin.netlify.app/services
+link: https://cardetailin.netlify.app
 
 The json server has been deployed on render:
 link: https://service-server-ls3h.onrender.com/services
