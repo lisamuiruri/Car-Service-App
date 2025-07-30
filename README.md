@@ -1,3 +1,4 @@
+
 # Car Service App
 
 What we have here is a modern React-based car detailing service application that allows customers to browse services, select their car type, and book appointments with real-time pricing.
@@ -41,6 +42,16 @@ npm run dev
 
 Open your browser and navigate to:  
 http://localhost:5173
+ 
+## Deployment
+
+The frontend application is deployed on netlify:
+link: https://cardetailin.netlify.app/services
+
+The json server has been deployed on render:
+link: https://service-server-ls3h.onrender.com/services
+
+open the backend and frontend in your browser to view the application.
 
 ## Project Structure
 
@@ -78,17 +89,6 @@ Vans - Commercial and personal vans
 Commercial Vehicles - Heavy-duty commercial vehicles
  main
 
-## Deployment
-
-The frontend application is deployed on netlify:
-link: https://carlinic.netlify.app/
-
-The json server has been deployed on render:
-link: https://service-server-ls3h.onrender.com/services
-
-Authors
- feature/jsonserverdeployment
-
 ## Authors
 
 Lisa Muiruri  
@@ -99,3 +99,4 @@ Ian Muthiani
 
 MIT  
 This project is open and proprietary for educational and public use.
+ 
