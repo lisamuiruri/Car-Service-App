@@ -42,6 +42,16 @@ npm run dev
 
 Open your browser and navigate to:  
 http://localhost:5173
+ 
+## Deployment
+
+The frontend application is deployed on netlify:
+link: https://cardetailin.netlify.app/services
+
+The json server has been deployed on render:
+link: https://service-server-ls3h.onrender.com/services
+
+open the backend and frontend in your browser to view the application.
 
 ## Project Structure
 
@@ -77,11 +87,7 @@ Saloon Cars - Standard sedans
 SUV Cars - Sport utility vehicles  
 Vans - Commercial and personal vans  
 Commercial Vehicles - Heavy-duty commercial vehicles
-
-## Deployment
-
-The application is deployed on Netlify:  
-Link: https://carlinic.netlify.app/
+ main
 
 ## Authors
 
@@ -93,4 +99,4 @@ Ian Muthiani
 
 MIT  
 This project is open and proprietary for educational and public use.
- 0cccc635d755738dfa1a1d89d8bdfd70c1ec048c
+ 
