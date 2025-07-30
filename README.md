@@ -76,11 +76,18 @@ Saloon Cars - Standard sedans
 SUV Cars - Sport utility vehicles  
 Vans - Commercial and personal vans  
 Commercial Vehicles - Heavy-duty commercial vehicles
+ main
 
 ## Deployment
 
-The application is deployed on Netlify:  
-Link: https://carlinic.netlify.app/
+The frontend application is deployed on netlify:
+link: https://carlinic.netlify.app/
+
+The json server has been deployed on render:
+link: https://service-server-ls3h.onrender.com/services
+
+Authors
+ feature/jsonserverdeployment
 
 ## Authors
 

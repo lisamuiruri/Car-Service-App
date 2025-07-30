@@ -17,10 +17,10 @@ const ServicesList = () => {
   const [userInfo, setUserInfo] = useState({ email: '', phone: '' });
   
 useEffect(() => {
-  fetch('http://localhost:3001/services')
+  fetch('https://service-server-ls3h.onrender.com/services')
     .then(res => res.json())
     .then(data => {
-      console.log('Services:', data); // <--- Add this
+      console.log('Services:', data);
       setServices(data);
     });
 }, []);
