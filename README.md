@@ -65,8 +65,12 @@ SUV Cars - Sport utility vehicles
 Vans - Commercial and personal vans
 Commercial Vehicles - Heavy-duty commercial vehicles
 Deployment
-The application is deployed on netlify:
+
+The frontend application is deployed on netlify:
 link: https://carlinic.netlify.app/
+
+The json server has been deployed on render:
+link: https://service-server-ls3h.onrender.com/services
 
 Authors
 
